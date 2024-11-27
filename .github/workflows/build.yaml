@@ -6,6 +6,7 @@
 # - AZURE_ACR_ENDPOINT: The login server name of your Azure Container Registry. This is the URL where the Docker images will be pushed to.
 #
 # You can create these secrets in your GitHub repository's settings under the "Secrets" section.
+# Hola
   
 name: WebApp Demo
 on:
