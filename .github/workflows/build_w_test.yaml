@@ -1,3 +1,5 @@
+# You can create these secrets in your GitHub repository's settings under the "Secrets" section.
+
 name: WebApp Demo
 
 on:
