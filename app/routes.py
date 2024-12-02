@@ -13,9 +13,9 @@ import os
 logging.basicConfig(level=logging.DEBUG)
 output_dir = os.getenv("FLASK_OUTPUT_DIR", "/app/outputs") ## Default for local tests:"/app/outputs" ||  "/home" for Linux App Service Web App
 
-@app.route('/mnt/sa_mountdev/img.png')
+@app.route('/mnt/sa_mount/img.png')
 def serve_image():
-storage_path = '/mnt/sa_mountdev'
+storage_path = '/mnt/sa_mount'
 filename = 'img.png' # Hardcoded filename
 return send_from_directory(storage_path, filename)
 
